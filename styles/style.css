@@ -4,7 +4,17 @@
   font-family: "Work Sans", sans-serif;
 }
 
-/* ====== General Styles */
+/* ====== Global Styles ====== */
+section {
+  max-width: 1140px;
+  margin: 130px auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* ====== General Styles ====== */
 .btn-primary {
   background: #fff;
   color: #005fac;
@@ -40,4 +50,31 @@
 .banner-description {
   max-width: 500px;
   margin: 25px 0 30px auto;
+}
+
+/* ====== About Section Styles */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.section-description {
+  color: #444343;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.section-description-lists {
+  color: #444343;
+}
+
+.section-description-lists li i {
+  color: #16d887;
 }
