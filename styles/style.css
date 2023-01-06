@@ -52,7 +52,7 @@ ul li {
   margin: 25px 0 30px auto;
 }
 
-/* ====== About Section Styles */
+/* ====== About Styles ====== */
 .about {
   display: flex;
   align-items: center;
@@ -77,4 +77,106 @@ ul li {
 
 .section-description-lists li i {
   color: #16d887;
+}
+
+/* ====== My Planning Styles ====== */
+.my-plan-section {
+  text-align: center;
+}
+.my-plan-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.plan-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
+  margin-bottom: 16px;
+  margin-top: 25px;
+}
+
+.plan-purpose {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+}
+
+/* ====== Contact Styles ====== */
+.contact {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
+  border-radius: 8px;
+}
+
+.contact .section-title {
+  padding-top: 60px;
+  padding-left: 65px;
+  color: #fff;
+}
+
+.contact .btn-primary {
+  padding: 20px 35px;
+  margin: 25px 0 60px 65px;
+}
+
+/* ====== Footer Styles ====== */
+footer {
+  background: #151414;
+  color: #fff;
+}
+
+.footer {
+  margin-bottom: 0;
+  padding-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact .section-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  padding-top: 130px;
+}
+
+.footer-contact .section-description {
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  max-width: 490px;
+}
+
+.telephone {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.social-link {
+  margin-right: 18px;
+}
+
+.footer-form .section-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+input {
+  font-size: 18px;
+  color: #f3f3f3;
+  padding: 21px;
+  background: none;
+  border: 1px solid #fff;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.footer-form .btn-primary {
+  padding: 20px 36px;
+  background: #005fac;
+  color: #fff;
+  border-radius: 8px;
 }
