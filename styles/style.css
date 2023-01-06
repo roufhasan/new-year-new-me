@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ====== General Styles */
+.btn-primary {
+  background: #fff;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+
+/* ====== Header Styles ====== */
+.header {
+  height: 100vh;
+  background-image: url("../images/banner/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ====== Banner Styles ====== */
+.banner {
+  color: #fff;
+  max-width: 1140px;
+  padding-top: 215px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.banner-title {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.banner-description {
+  max-width: 500px;
+  margin: 25px 0 30px auto;
+}
